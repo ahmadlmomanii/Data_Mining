@@ -1,0 +1,26 @@
+
+OULAD EDA SUMMARY
+
+Number of students: 32593
+
+Number of columns: 15
+
+Missing values: 1111
+
+Duplicate rows: 0
+
+Final result distribution:
+final_result
+Pass           12361
+Withdrawn      10156
+Fail            7052
+Distinction     3024
+
+Average total clicks:
+238.74
+
+Average active days:
+9.26
+
+Average unique sites:
+20.29
