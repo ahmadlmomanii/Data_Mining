@@ -1,0 +1,7 @@
+,total_clicks_first_28_days,total_clicks_first_28_days,total_clicks_first_28_days,active_days_first_28_days,active_days_first_28_days,active_days_first_28_days,unique_sites_first_28_days,unique_sites_first_28_days,unique_sites_first_28_days
+,mean,median,std,mean,median,std,mean,median,std
+final_result,,,,,,,,,
+Distinction,427.23,299.0,442.48,14.2,14.0,7.49,28.21,24.0,18.48
+Fail,176.42,103.0,231.1,7.62,6.0,6.27,18.25,15.0,15.82
+Pass,317.16,217.0,346.25,12.08,11.0,7.06,25.69,22.0,17.36
+Withdrawn,130.46,36.0,228.94,5.49,3.0,6.56,12.78,8.0,15.8
