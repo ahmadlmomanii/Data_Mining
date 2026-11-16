@@ -1,0 +1,63 @@
+{
+  "data_file": "../data/model_data.csv",
+  "rows_used": 27553,
+  "target": {
+    "name": "at_risk",
+    "positive_class_1": [
+      "Fail",
+      "Withdrawn"
+    ],
+    "negative_class_0": [
+      "Pass",
+      "Distinction"
+    ]
+  },
+  "prediction_day": 28,
+  "early_withdrawal_filter": "dropped date_unregistration < 28",
+  "rows_removed": 5040,
+  "categorical_features": [
+    "code_module",
+    "presentation_start",
+    "gender",
+    "region",
+    "highest_education",
+    "imd_band",
+    "age_band",
+    "disability"
+  ],
+  "numeric_features": [
+    "num_of_prev_attempts",
+    "studied_credits",
+    "total_clicks_first_28_days",
+    "active_days_first_28_days",
+    "unique_sites_first_28_days"
+  ],
+  "excluded_columns": [
+    "at_risk",
+    "code_presentation (year)",
+    "date_submitted",
+    "date_unregistration",
+    "final_result",
+    "id_student",
+    "score"
+  ],
+  "split": {
+    "method": "StratifiedGroupKFold (grouped by id_student), 1 fold held out",
+    "test_fraction": 0.2,
+    "train_rows": 22043,
+    "test_rows": 5510,
+    "random_state": 42
+  },
+  "tuning": {
+    "method": "GridSearchCV on training set only",
+    "scoring": "f1",
+    "cv_folds": 3
+  },
+  "decision_threshold": 0.5,
+  "versions": {
+    "python": "3.12.10",
+    "sklearn": "1.9.1",
+    "pandas": "3.1.1",
+    "numpy": "2.5.4"
+  }
+}

@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1,roc_auc,train_f1,cv_f1,best_params
+logistic_regression,0.6682,0.6146,0.6667,0.6396,0.7354,0.6532,0.6530,"{""model__C"": 0.01}"
+decision_tree,0.6535,0.5971,0.6621,0.6279,0.7089,0.6539,0.6315,"{""model__max_depth"": 8, ""model__min_samples_leaf"": 50}"
+random_forest,0.6682,0.6263,0.6165,0.6214,0.7302,0.6829,0.6392,"{""model__max_depth"": null, ""model__max_features"": ""sqrt"", ""model__min_samples_leaf"": 20}"

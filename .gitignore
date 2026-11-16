@@ -1,0 +1,6 @@
+# local Python environments
+.venv/
+__pycache__/
+
+# raw OULAD files are large (studentVle.csv ~450MB) - keep them local
+data/raw/

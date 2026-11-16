@@ -1,0 +1,151 @@
+model,feature,type,value,abs_value
+logistic_regression,cat__code_module_GGG,coefficient,-0.670371,0.670371
+logistic_regression,num__active_days_first_28_days,coefficient,-0.633936,0.633936
+logistic_regression,cat__code_module_DDD,coefficient,0.515829,0.515829
+logistic_regression,cat__code_module_FFF,coefficient,0.464933,0.464933
+logistic_regression,cat__code_module_CCC,coefficient,0.406520,0.406520
+logistic_regression,cat__highest_education_Lower Than A Level,coefficient,0.390353,0.390353
+logistic_regression,cat__code_module_BBB,coefficient,-0.362075,0.362075
+logistic_regression,cat__imd_band_0-10%,coefficient,0.310754,0.310754
+logistic_regression,cat__imd_band_Missing,coefficient,-0.294816,0.294816
+logistic_regression,cat__highest_education_HE Qualification,coefficient,-0.245587,0.245587
+logistic_regression,cat__imd_band_10-20,coefficient,0.239682,0.239682
+logistic_regression,cat__imd_band_90-100%,coefficient,-0.231777,0.231777
+logistic_regression,cat__highest_education_A Level or Equivalent,coefficient,-0.231107,0.231107
+logistic_regression,cat__imd_band_20-30%,coefficient,0.219005,0.219005
+logistic_regression,cat__highest_education_No Formal quals,coefficient,0.214743,0.214743
+logistic_regression,num__unique_sites_first_28_days,coefficient,-0.208800,0.208800
+logistic_regression,cat__code_module_EEE,coefficient,-0.207590,0.207590
+logistic_regression,cat__imd_band_80-90%,coefficient,-0.177347,0.177347
+logistic_regression,cat__presentation_start_J,coefficient,-0.164425,0.164425
+logistic_regression,cat__region_Scotland,coefficient,0.158373,0.158373
+logistic_regression,cat__presentation_start_B,coefficient,0.157430,0.157430
+logistic_regression,cat__code_module_AAA,coefficient,-0.154242,0.154242
+logistic_regression,cat__disability_N,coefficient,-0.153699,0.153699
+logistic_regression,cat__region_South Region,coefficient,-0.153458,0.153458
+logistic_regression,cat__region_Wales,coefficient,0.150353,0.150353
+logistic_regression,cat__disability_Y,coefficient,0.146703,0.146703
+logistic_regression,cat__highest_education_Post Graduate Qualification,coefficient,-0.135398,0.135398
+logistic_regression,num__num_of_prev_attempts,coefficient,0.127562,0.127562
+logistic_regression,num__studied_credits,coefficient,0.122013,0.122013
+logistic_regression,cat__region_South East Region,coefficient,-0.116359,0.116359
+logistic_regression,cat__region_North Western Region,coefficient,0.110374,0.110374
+logistic_regression,cat__region_South West Region,coefficient,-0.108199,0.108199
+logistic_regression,cat__imd_band_60-70%,coefficient,-0.086192,0.086192
+logistic_regression,cat__gender_F,coefficient,-0.063543,0.063543
+logistic_regression,cat__region_East Anglian Region,coefficient,-0.061817,0.061817
+logistic_regression,cat__gender_M,coefficient,0.056547,0.056547
+logistic_regression,cat__region_Yorkshire Region,coefficient,0.053311,0.053311
+logistic_regression,cat__imd_band_30-40%,coefficient,0.042439,0.042439
+logistic_regression,cat__region_London Region,coefficient,-0.041036,0.041036
+logistic_regression,cat__age_band_35-55,coefficient,-0.028334,0.028334
+logistic_regression,cat__region_West Midlands Region,coefficient,0.025231,0.025231
+logistic_regression,cat__imd_band_50-60%,coefficient,-0.024294,0.024294
+logistic_regression,cat__imd_band_70-80%,coefficient,-0.021036,0.021036
+logistic_regression,num__total_clicks_first_28_days,coefficient,-0.018990,0.018990
+logistic_regression,cat__imd_band_40-50%,coefficient,0.016587,0.016587
+logistic_regression,cat__region_East Midlands Region,coefficient,-0.015219,0.015219
+logistic_regression,cat__age_band_0-35,coefficient,0.012770,0.012770
+logistic_regression,cat__age_band_55<=,coefficient,0.008569,0.008569
+logistic_regression,cat__region_North Region,coefficient,-0.005573,0.005573
+logistic_regression,cat__region_Ireland,coefficient,-0.002976,0.002976
+decision_tree,num__active_days_first_28_days,importance,0.500347,0.500347
+decision_tree,cat__code_module_GGG,importance,0.101892,0.101892
+decision_tree,cat__highest_education_Lower Than A Level,importance,0.089486,0.089486
+decision_tree,cat__code_module_BBB,importance,0.073824,0.073824
+decision_tree,num__total_clicks_first_28_days,importance,0.068737,0.068737
+decision_tree,num__num_of_prev_attempts,importance,0.030102,0.030102
+decision_tree,num__unique_sites_first_28_days,importance,0.021758,0.021758
+decision_tree,cat__presentation_start_B,importance,0.018023,0.018023
+decision_tree,cat__code_module_EEE,importance,0.017520,0.017520
+decision_tree,num__studied_credits,importance,0.016587,0.016587
+decision_tree,cat__disability_Y,importance,0.009336,0.009336
+decision_tree,cat__region_North Western Region,importance,0.005824,0.005824
+decision_tree,cat__imd_band_10-20,importance,0.005472,0.005472
+decision_tree,cat__region_South Region,importance,0.005065,0.005065
+decision_tree,cat__imd_band_0-10%,importance,0.004944,0.004944
+decision_tree,cat__highest_education_A Level or Equivalent,importance,0.004543,0.004543
+decision_tree,cat__code_module_AAA,importance,0.003668,0.003668
+decision_tree,cat__region_London Region,importance,0.003264,0.003264
+decision_tree,cat__disability_N,importance,0.003167,0.003167
+decision_tree,cat__imd_band_60-70%,importance,0.002861,0.002861
+decision_tree,cat__presentation_start_J,importance,0.002780,0.002780
+decision_tree,cat__age_band_0-35,importance,0.002756,0.002756
+decision_tree,cat__code_module_DDD,importance,0.002369,0.002369
+decision_tree,cat__imd_band_20-30%,importance,0.001839,0.001839
+decision_tree,cat__code_module_CCC,importance,0.001256,0.001256
+decision_tree,cat__age_band_35-55,importance,0.000856,0.000856
+decision_tree,cat__gender_M,importance,0.000829,0.000829
+decision_tree,cat__region_Wales,importance,0.000739,0.000739
+decision_tree,cat__code_module_FFF,importance,0.000158,0.000158
+decision_tree,cat__gender_F,importance,0.000000,0.000000
+decision_tree,cat__region_East Midlands Region,importance,0.000000,0.000000
+decision_tree,cat__region_East Anglian Region,importance,0.000000,0.000000
+decision_tree,cat__region_North Region,importance,0.000000,0.000000
+decision_tree,cat__region_Ireland,importance,0.000000,0.000000
+decision_tree,cat__highest_education_Post Graduate Qualification,importance,0.000000,0.000000
+decision_tree,cat__highest_education_No Formal quals,importance,0.000000,0.000000
+decision_tree,cat__highest_education_HE Qualification,importance,0.000000,0.000000
+decision_tree,cat__region_Yorkshire Region,importance,0.000000,0.000000
+decision_tree,cat__region_West Midlands Region,importance,0.000000,0.000000
+decision_tree,cat__region_Scotland,importance,0.000000,0.000000
+decision_tree,cat__region_South East Region,importance,0.000000,0.000000
+decision_tree,cat__region_South West Region,importance,0.000000,0.000000
+decision_tree,cat__imd_band_70-80%,importance,0.000000,0.000000
+decision_tree,cat__imd_band_50-60%,importance,0.000000,0.000000
+decision_tree,cat__imd_band_40-50%,importance,0.000000,0.000000
+decision_tree,cat__imd_band_30-40%,importance,0.000000,0.000000
+decision_tree,cat__imd_band_Missing,importance,0.000000,0.000000
+decision_tree,cat__imd_band_90-100%,importance,0.000000,0.000000
+decision_tree,cat__imd_band_80-90%,importance,0.000000,0.000000
+decision_tree,cat__age_band_55<=,importance,0.000000,0.000000
+random_forest,num__active_days_first_28_days,importance,0.220221,0.220221
+random_forest,num__total_clicks_first_28_days,importance,0.203331,0.203331
+random_forest,num__unique_sites_first_28_days,importance,0.121477,0.121477
+random_forest,cat__highest_education_Lower Than A Level,importance,0.054039,0.054039
+random_forest,num__studied_credits,importance,0.041992,0.041992
+random_forest,num__num_of_prev_attempts,importance,0.030582,0.030582
+random_forest,cat__code_module_GGG,importance,0.027474,0.027474
+random_forest,cat__code_module_BBB,importance,0.025010,0.025010
+random_forest,cat__highest_education_A Level or Equivalent,importance,0.021031,0.021031
+random_forest,cat__code_module_DDD,importance,0.018340,0.018340
+random_forest,cat__code_module_FFF,importance,0.017771,0.017771
+random_forest,cat__gender_F,importance,0.017747,0.017747
+random_forest,cat__gender_M,importance,0.016597,0.016597
+random_forest,cat__code_module_CCC,importance,0.015543,0.015543
+random_forest,cat__presentation_start_B,importance,0.015386,0.015386
+random_forest,cat__presentation_start_J,importance,0.014696,0.014696
+random_forest,cat__code_module_EEE,importance,0.012415,0.012415
+random_forest,cat__highest_education_HE Qualification,importance,0.011356,0.011356
+random_forest,cat__imd_band_0-10%,importance,0.010163,0.010163
+random_forest,cat__age_band_0-35,importance,0.009209,0.009209
+random_forest,cat__age_band_35-55,importance,0.008946,0.008946
+random_forest,cat__disability_Y,importance,0.006400,0.006400
+random_forest,cat__disability_N,importance,0.006300,0.006300
+random_forest,cat__imd_band_10-20,importance,0.005812,0.005812
+random_forest,cat__imd_band_20-30%,importance,0.005730,0.005730
+random_forest,cat__imd_band_90-100%,importance,0.004943,0.004943
+random_forest,cat__region_South Region,importance,0.004441,0.004441
+random_forest,cat__code_module_AAA,importance,0.004357,0.004357
+random_forest,cat__region_Scotland,importance,0.003816,0.003816
+random_forest,cat__imd_band_Missing,importance,0.003778,0.003778
+random_forest,cat__region_North Western Region,importance,0.003624,0.003624
+random_forest,cat__imd_band_30-40%,importance,0.003303,0.003303
+random_forest,cat__imd_band_80-90%,importance,0.003241,0.003241
+random_forest,cat__region_London Region,importance,0.002998,0.002998
+random_forest,cat__imd_band_60-70%,importance,0.002874,0.002874
+random_forest,cat__region_East Anglian Region,importance,0.002783,0.002783
+random_forest,cat__region_Wales,importance,0.002653,0.002653
+random_forest,cat__imd_band_40-50%,importance,0.002592,0.002592
+random_forest,cat__imd_band_50-60%,importance,0.002481,0.002481
+random_forest,cat__imd_band_70-80%,importance,0.002432,0.002432
+random_forest,cat__region_South East Region,importance,0.002140,0.002140
+random_forest,cat__region_South West Region,importance,0.002014,0.002014
+random_forest,cat__region_West Midlands Region,importance,0.001652,0.001652
+random_forest,cat__region_East Midlands Region,importance,0.001614,0.001614
+random_forest,cat__region_Yorkshire Region,importance,0.001306,0.001306
+random_forest,cat__region_Ireland,importance,0.001135,0.001135
+random_forest,cat__region_North Region,importance,0.001068,0.001068
+random_forest,cat__highest_education_No Formal quals,importance,0.000644,0.000644
+random_forest,cat__highest_education_Post Graduate Qualification,importance,0.000411,0.000411
+random_forest,cat__age_band_55<=,importance,0.000134,0.000134
